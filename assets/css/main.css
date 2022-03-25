@@ -2605,7 +2605,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/cookies.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-size: auto,								160%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -3008,7 +3008,12 @@ input, select, textarea {
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 30%;
+				background-size: auto, 250%;
 			}
+
+				#header .image.avatar {
+					width: 200px;
+				}
 
 				#header h1 {
 					font-size: 1.25em;
@@ -3087,7 +3092,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/cookies.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
